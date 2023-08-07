@@ -1,0 +1,23 @@
+{
+  "name": "caesars-cipher",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "css-deploy": "npm run css-build && npm run css-postcss",
+    "css-build": "sass --no-source-map mybulma.scss:main.css",
+    "css-postcss": "postcss --use autoprefixer --output main.css main.css",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss-cli": "^10.1.0",
+    "sass": "^1.64.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "bulma": "^0.9.4"
+  }
+}

@@ -1,0 +1,32 @@
+// google font
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap');
+$family-sans-serif: 'Oswald', sans-serif;
+
+// colors
+$primary: hsl(271, 81%, 56%);
+
+// bulma
+
+// base
+@import './node_modules/bulma/sass/base/_all.sass';
+
+// elements
+@import './node_modules/bulma/sass/elements/button.sass'; // button
+@import './node_modules/bulma/sass/elements/container.sass'; // container
+@import './node_modules/bulma/sass/elements/other.sass'; // block
+@import './node_modules/bulma/sass/elements/title.sass'; // title
+
+// form
+@import './node_modules/bulma/sass/form/_all.sass';
+
+// helpers
+@import './node_modules/bulma/sass/helpers/color.sass'; // color
+@import './node_modules/bulma/sass/helpers/flexbox.sass'; // flexbox
+@import './node_modules/bulma/sass/helpers/spacing.sass'; // spacing
+@import './node_modules/bulma/sass/helpers/typography.sass'; // typography
+
+// layout
+@import './node_modules/bulma/sass/layout/hero.sass'; // hero
+
+//utilities
+@import './node_modules/bulma/sass/utilities/_all.sass';
